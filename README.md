@@ -27,7 +27,7 @@ The data in GeoTIFF format use the WGS 1984 projection, is ideal for both analys
 | Type       | File Name     |
 | :------------- | :----------: |
 |  Flood Water Mask | flood_WM_<SAR_image_name>.tif   |
-| Non-flood Water Mask   | non_flood_WMn_<SAR_image_name>.tif \| |
+| Non-flood Water Mask   | non_flood_WMn_<SAR_image_name>.tif  |
 
 Flood Water Mask<br />
 This layer represents the binary inundation water mask delineated from flood SAR image.
