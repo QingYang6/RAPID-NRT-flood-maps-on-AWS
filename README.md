@@ -19,9 +19,10 @@ To quick locate the flood maps of interest from our database, two strategies: a)
 
 
 # Data Structure
-An explorer of the database is available at  https://rapid-nrt-flood-maps.s3.amazonaws.com/index.html.<br /><br />
-Flood maps data are group by flood and non-flood water masks, located in a unique run path. The structure of the run path is: date/flooding_<SAR_image_name>. The format of the date is YYYYMMDD representing the date of flood occurrence. The structure of the SAR_image_name is: MMM_BB_TTTR_LFPP_YYYYMMDDTHHMMSS_YYYYMMDDTHHMMSS_OOOOOO_DDDDDD_CCCC.<br />
-A full explanation of the SAR image convention can be found in the Sentinel program at this url: https://sentinel.esa.int/web/sentinel/user-guides/sentinel-1-sar/naming-conventions. Note that there could be multiple flood SAR images in the same date.
+An web explorer of the database is available at  https://rapid-nrt-flood-maps.s3.amazonaws.com/index.html. <br /><br />
+Archive flood events are stored in /Archive_Flood_Events/. The start date, end date, dynamic and maximal extent are stored in separate folder with unique event ID. A shapefile consist of the maximal extent from all flood events is locate at  /Archive_Flood_Events/FloodEventsInfo.shp. <br /><br />
+Archive flood maps are group by flood and non-flood water masks, located in a unique run path. The structure of the run path is: /RAPID_Archive_Flood_Maps/date/flooding_<SAR_image_name>.<br />
+ The format of the date is YYYYMMDD representing the date of flood occurrence. The structure of the SAR_image_name is: MMM_BB_TTTR_LFPP_YYYYMMDDTHHMMSS_YYYYMMDDTHHMMSS_OOOOOO_DDDDDD_CCCC. <br />
 
 For each individual water mask, the data are structured in the following way:
 
