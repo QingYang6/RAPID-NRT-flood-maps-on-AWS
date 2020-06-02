@@ -7,6 +7,8 @@ RAPID NRT flood maps is an inundation dataset, delineated based on the Synthetic
 # Backgroud
 High-resolution water mask of flooding is a fundamental data source for hazard assessment and relief organization. Here we introduce RAPID NRT flood maps, an unprecedented high-resolution (10 m) flood inundation dataset over the Contiguous United States (CONUS), derived from the Sentinel-1 SAR imagery using an automated Radar Produced Inundation Diary (RAPID) system. We developed a triggering mechanism to separate images with flooding from the entire Sentinel-1 record based on the U.S. Geological Survey (USGS) flood gauge measurements and accumulated precipitation from the Integrated Multi-satellitE Retrievals for GPM (IMERG). Take the advantage of the acquisition intervals of Sentinel-1 (6 days average), RAPID NRT flood maps have the capacity to capture middle to large inundation events lasting from several days to months. See Shen et al. (2019a) for more information about the detail algorithm used to generate these data.
 
+![alt text](https://github.com/QingYang6/RAPID-NRT-flood-maps-on-AWS/blob/master/Figure%201.png)
+
 # Data Types
 The data product is raster data containing open water mask delineated from flood and non-flood SAR images (Shen et al, 2019a) at a 10m resolution across the CONUS.
 
