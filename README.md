@@ -14,6 +14,10 @@ Fig. 1. The automated process of the RAPID system, from flood event discovery to
 # Data Types
 The final product contains two sub-datasets:  flood inundation events information, stored as time series of multi-polygon in ESRI shapefile format with a unique ID, start date, and ending date fields; and binary flood extent rasters (10m resolution) with each pixel labeled as 1 (flooded) and 0 (nonflooded) derived based on the flood and dry-time SAR images.  We also generate a separate list to link the file name of each flood extent raster to the associated event ID to facilitate event-wise queries.
 
+# Data Search Suggestion
+To quick locate the flood maps of interest from our database, two strategies: a) find the SAR image ID and date using extent based Web searching interface, such as Copernicus Open Accessed Hub (https://scihub.copernicus.eu/dhus/#/home) or Alaksa Satellite Facility (https://search.asf.alaska.edu/#/), then search the flood maps; b) event wise query based on the flood events and linking SAR images information available in our dataset. 
+
+
 # Data Structure
 An explorer of the database is available at  https://rapid-nrt-flood-maps.s3.amazonaws.com/index.html.<br /><br />
 Flood maps data are group by flood and non-flood water masks, located in a unique run path. The structure of the run path is: date/flooding_<SAR_image_name>. The format of the date is YYYYMMDD representing the date of flood occurrence. The structure of the SAR_image_name is: MMM_BB_TTTR_LFPP_YYYYMMDDTHHMMSS_YYYYMMDDTHHMMSS_OOOOOO_DDDDDD_CCCC.<br />
