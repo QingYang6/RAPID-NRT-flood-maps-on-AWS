@@ -15,7 +15,8 @@ Fig. 1. The automated process of the RAPID system, from flood event discovery to
 The final product contains two sub-datasets:  flood inundation events information, stored as time series of multi-polygon in ESRI shapefile format with a unique ID, start date, and ending date fields; and binary flood extent rasters (10m resolution) with each pixel labeled as 1 (flooded) and 0 (nonflooded) derived based on the flood and dry-time SAR images.  We also generate a separate list to link the file name of each flood extent raster to the associated event ID to facilitate event-wise queries.
 
 # Data Structure
-Data are group by flood and non-flood water masks, located in a unique run path. The structure of the run path is: date/flooding_<SAR_image_name>. The format of the date is YYYYMMDD representing the date of flood occurrence. The structure of the SAR_image_name is: MMM_BB_TTTR_LFPP_YYYYMMDDTHHMMSS_YYYYMMDDTHHMMSS_OOOOOO_DDDDDD_CCCC.  A full explanation of the SAR image convention can be found in the Sentinel program at this url: https://sentinel.esa.int/web/sentinel/user-guides/sentinel-1-sar/naming-conventions. Note that there could be multiple flood SAR images in the same date.
+An explorer of the database is available at  https://rapid-nrt-flood-maps.s3.amazonaws.com/index.html.
+Flood maps data are group by flood and non-flood water masks, located in a unique run path. The structure of the run path is: date/flooding_<SAR_image_name>. The format of the date is YYYYMMDD representing the date of flood occurrence. The structure of the SAR_image_name is: MMM_BB_TTTR_LFPP_YYYYMMDDTHHMMSS_YYYYMMDDTHHMMSS_OOOOOO_DDDDDD_CCCC.  A full explanation of the SAR image convention can be found in the Sentinel program at this url: https://sentinel.esa.int/web/sentinel/user-guides/sentinel-1-sar/naming-conventions. Note that there could be multiple flood SAR images in the same date.
 
 For each individual water mask, the data are structured in the following way:
 
