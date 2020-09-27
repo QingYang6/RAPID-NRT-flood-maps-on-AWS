@@ -40,8 +40,8 @@ For each individual water mask, the data are structured in the following way:
 …<br />
 <run_path>/non_flood_WMn_<SAR_image_name>.tif<br />
 
-The "quick look" pictures are located in the date path, and structured as:
-ImageExtentLook_<CCCC>.jpeg<br />
+The "quick look" pictures are located in the date path, and structured as:<br />
+ImageExtentLook_CCCC.jpeg<br />
 floodquicklook_<SAR_image_name>.jpeg<br />
  
 The global NRT flood maps are available at https://rapid-nrt-flood-maps.s3.amazonaws.com/index.html#Global_Flood_Event/. Data are simply grouped by the corresponding event name. 
