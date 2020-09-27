@@ -24,7 +24,7 @@ Fig. 2. Example of flooded image location and flood map quick look.
 
 Moreover, we are working on extend our dataset to the global scale and by now providing a near-real-time (NRT) flood inundation maps for global flood events with quick look poster. Limited by the knowledge of flood event location outside of the CONUS, the NRT system now only deal with the emergency response activated by UN disaster charters. A flood map example of recent flood event happened in India and Bangladesh caused by Tropical Cyclone Amphan is shown as follow:<br />
 
-![alt text](https://github.com/QingYang6/RAPID-NRT-flood-maps-on-AWS/blob/master/Flood%20maps%20Cyclone%20Amphan%200522.png)<br />
+![alt text](https://github.com/QingYang6/RAPID-NRT-flood-maps-on-AWS/blob/master/Flood%20maps%20Cyclone%20Amphan%200522%20M.png)<br />
 Fig. 3. NRT flood maps of Tropical Cyclone Amphan.
 
 # Data Structure
