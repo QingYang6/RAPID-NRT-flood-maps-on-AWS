@@ -28,9 +28,9 @@ Moreover, we are working on extend our dataset to the global scale and by now pr
 Fig. 3. NRT flood maps of Tropical Cyclone Amphan.
 
 # Data Structure
-An web explorer of the database is available at  https://rapid-nrt-flood-maps.s3.amazonaws.com/index.html. <br /><br />
-Archive flood events are stored in #Archive_Flood_Events/. The start date, end date, dynamic and maximal extent are stored in separate folder with unique event ID. Shapefile consist of the maximal potential flooded zone from all flood events is locate at Archive_Flood_Events/TotalFloodEventsInfo.shp. To browse the events captrued by SAR images, refer to #Archive_Flood_Events/EventswithDFOandImages.shp or #Archive_Flood_Events/List_EventsLinktoDFOandFloodMaps.xlsx <br /><br />
-Archive flood maps are grouped by flood and non-flood water masks, located in a unique run path. The structure of the run path is: https://rapid-nrt-flood-maps.s3.amazonaws.com/index.html#RAPID_Archive_Flood_Maps/date/flooding_<SAR_image_name>.<br />
+An web explorer gateway of the database is available at  https://rapid-nrt-flood-maps.s3.amazonaws.com/index.html. <br /><br />
+Archive flood events are stored in https://rapid-nrt-flood-maps.s3.amazonaws.com/index.html#Archive_Flood_Events/. The start date, end date, dynamic and maximal extent are stored in separate folder with unique event ID. Shapefile consist of the maximal potential flooded zone from all flood events is locate at Archive_Flood_Events/TotalFloodEventsInfo.shp. To browse the events captrued by SAR images, refer to Archive_Flood_Events/EventswithDFOandImages.shp or Archive_Flood_Events/List_EventsLinktoDFOandFloodMaps.xlsx <br /><br />
+Archive flood maps are grouped by flood and non-flood water masks, located in a unique run path. The structure of the run path is: <web explorer gateway>#RAPID_Archive_Flood_Maps/date/flooding_<SAR_image_name>.<br />
 The format of the date is YYYYMMDD representing the date of flood occurrence. The structure of the SAR_image_name is: MMM_BB_TTTR_LFPP_YYYYMMDDTHHMMSS_YYYYMMDDTHHMMSS_OOOOOO_DDDDDD_CCCC. <br />
 
 For each individual water mask, the data are structured in the following way:
