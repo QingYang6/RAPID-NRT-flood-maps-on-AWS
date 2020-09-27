@@ -16,8 +16,10 @@ The final product contains two sub-datasets:  flood inundation events informatio
 
 # Data Search Suggestion
 To quick locate the flood maps of interest from our database, two strategies: a) find the SAR image ID and date using extent based Web searching interface, such as Copernicus Open Accessed Hub (https://scihub.copernicus.eu/dhus/#/home) or Alaksa Satellite Facility (https://search.asf.alaska.edu/#/), then search the flood maps; b) event wise query based on the flood events and linking SAR images information available in our dataset. <br /><br />
-We also provide "quick look" pictures for each flood map to show the map location and flood severity. The flood severity quick look picture is consisted of flood inundation (red), permanent water body (blue) and impervious surface (gray). Both quick looks are stored in the .jpeg format that does not require a GIS tool to view. An example of the “quick look” is shown as follow:
+We also provide "quick look" pictures for each flood map to show the map location and flood severity. The flood severity quick look picture is consisted of flood inundation (red), permanent water body (blue) and impervious surface (gray). Both quick looks are stored in the .jpeg format that does not require a GIS tool to view. An example of the “quick look” is shown as follow:<br />
 
+![alt text](https://github.com/QingYang6/RAPID-NRT-flood-maps-on-AWS/blob/master/FloodMap_quicklookexample.png)
+Fig. 2. Example of flooded image location and flood map quick look.
 
 # Data Structure
 An web explorer of the database is available at  https://rapid-nrt-flood-maps.s3.amazonaws.com/index.html. <br /><br />
