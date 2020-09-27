@@ -44,7 +44,7 @@ The "quick look" pictures are located in the date path, and structured as:
 ImageExtentLook_<CCCC>.jpeg<br />
 floodquicklook_<SAR_image_name>.jpeg<br />
  
-The global NRT flood maps are available at https://rapid-nrt-flood-maps.s3.amazonaws.com/index.html#Global_Flood_Event/. Data are grouped by the flood event name. 
+The global NRT flood maps are available at https://rapid-nrt-flood-maps.s3.amazonaws.com/index.html#Global_Flood_Event/. Data are simply grouped by the corresponding event name. 
 
 # Projection
 The data in GeoTIFF format use the WGS 1984 projection, is ideal for both analysis and mapping.
