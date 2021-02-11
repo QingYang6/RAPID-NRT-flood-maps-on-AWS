@@ -62,8 +62,7 @@ Non-flood Water Mask<br />
 This layer represents the binary water mask delineated from non-flood SAR image. Non-flood water mask here act as the dry time reference to the flood water mask for the purpose of change detection (Shen et al, 2019a & 2019b).  One non-flood water mask is the minimum require, 3 to 5 are expected in most of the case.
 
 # References
-[1]  Yang, Q., Shen, X., Anagnostou, E. N., Mo, C., Eggleston, J. R. and Kettner, A.J., 2020: A High-Resolution Flood Inundation Archive (2016–the Present) from Sentinel-1 SAR
-Imagery over CONUS. Bulletin of the American Meteorological Society, Under Review.<br />
+[1]  Yang, Q., Shen, X., Anagnostou, E. N., Mo, C., Eggleston, J. R. and Kettner, A.J., 2021: A High-Resolution Flood Inundation Archive (2016–the Present) from Sentinel-1 SAR Imagery over CONUS. Bulletin of the American Meteorological Society, Accepted.<br />
 [2]  Shen, X., Anagnostou, E. N., Allen, G. H., Brakenridge, G. R. and Kettner, A. J., 2019a: Near Real-Time Nonobstructed Flood Inundation Mapping by Synthetic Aperture Radar. Remote Sensing of Environment, 221, 302-335, doi:10.1016/j.rse.2018.11.008.<br />
 [3]  Shen, X., Dacheng W., Kebiao M., Anagnostou, E.N. and Hong Y., 2019b: Inundation Extent Mapping by Synthetic Aperture Radar: A Review, Remote Sensing, 11, 879.
 
